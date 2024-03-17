@@ -1,0 +1,78 @@
+@media screen and (max-width: 1200px) {
+    #nav {
+        display: none;
+    }
+
+    #small-nav {
+        display: flex;
+        height: 6rem;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .section-text {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .section_pic-cont {
+        width: 100%;
+    }
+
+    .section_pic-cont img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    #profile-sect {
+        display: inline;
+        margin-top: 2rem;
+    }
+
+    .sec-2 {
+        display: inline;
+    }
+
+    aside#about-me-pic {
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    aside.info {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    h1.title {
+        font-size: 2.5rem;
+    }
+
+    p.section_text_p2 {
+        font-size: 1.25rem;
+    }
+
+    h3.about-me {
+        font-size: 1.75rem;
+    }
+
+    p.section_text_p1 {
+        margin-top: 1.5rem;
+    }
+
+    .menu-links a {
+        font-size: medium;
+    }
+}
