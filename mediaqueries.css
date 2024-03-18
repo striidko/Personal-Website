@@ -97,4 +97,8 @@
         margin-left: auto;
         display: grid;
     }
+
+    .projects-medium {
+        width: 310.53px;
+    }
 }
