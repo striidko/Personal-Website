@@ -18,6 +18,7 @@
 
         <!-- SHEETS -->
         <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "mediaqueries.css">
     </head>
     <body>
         <nav id = "nav">
@@ -30,12 +31,96 @@
                     <li>
                         <a href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="cv.html">CV</a>
-                    </li>
                 </ul>
             </div>
         </nav>
+
+        <!-- NAV FOR SMALLER SCREEN -->
+        <nav id = "small-nav">
+            <div class = "name">Sopio Gobejishvili</div>
+            <div class = "small-nav-menu">
+                <div class = "small-nav-icon" onclick = "toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "menu-links">
+                    <li>
+                        <a href="index.html" onclick = "toggleMenu()">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" onclick = "toggleMenu()">Portfolio</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+        <section id = "projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class = "project-large">
+                <div class = "projects-medium">
+                    <div class = "projects-small">
+                        <div class = "project-pic-cont">
+                            <img class = "project-img" src = "./assets/Project1.png"
+                            alt = "Project 1 photo">
+                        </div>
+                        <h2 class = "project-title">Apocalypse quiz</h2>
+                        <hr class = "project-breaks">
+                        <p class = "project-overview">Although this project is 
+                            so simple that I would not normally showcase it
+                            here, it holds a special place in my portfolio, since 
+                            it is the very first project I did with HTML, CSS, 
+                            and Javascript. 
+                        </p>
+                        <hr class = "project-breaks">
+                        <div class = "project-btn-1">
+                            <button class = "btn btn-color-2" 
+                            onclick = "window.open('https://hq.girlswhocode.com/project-gallery/14816')">
+                            Open</button>
+                        </div>
+                    </div>
+                    <div class = "projects-small">
+                        <div class = "project-pic-cont">
+                            <img class = "project-img" src = "./assets/Project2.png"
+                            alt = "Project 2 photo">
+                        </div>
+                        <h2 class = "project-title">CamperVan site</h2>
+                        <hr class = "project-breaks">
+                        <p class = "project-overview">This particular project was done
+                            because my friend needed a simple web-site for the business 
+                            idea for her university. It showcases my moderate skills at 
+                            the time and it served as an inspiration to keep learning
+                            HTML, CSS, and JS.
+                        </p>
+                        <hr class = "project-breaks">
+                        <div class = "project-btn">
+                            <button class = "btn btn-color-2" 
+                            onclick = "window.open('https://github.com/striidko/CamperVan')">GitHub</button>
+                            <button class = "btn btn-color-2"
+                            onclick = "window.open('https://replit.com/@sopogobejishvil/CamperVan-Georgia#CamperA.html')">Open</button>
+                        </div>
+                    </div>
+                    <div class = "projects-small">
+                        <div class = "project-pic-cont">
+                            <img class = "project-img" src = "./assets/Project3.png"
+                            alt = "Project 3 photo">
+                        </div>
+                        <h2 class = "project-title">Personal Website</h2>
+                        <hr class = "project-breaks">
+                        <p class = "project-overview">The personal website project is
+                            chronologically the 3rd one I have created using these 
+                            languages to simply showcase my overall experience.
+                        </p>
+                        <hr class = "project-breaks">
+                        <div class = "project-btn-1">
+                            <button class = "btn btn-color-2"
+                            onclick = "window.open('https://github.com/striidko/Personal-Website')">GitHub</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="script.js"></script>
     </body>
 </html>

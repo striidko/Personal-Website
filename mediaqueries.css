@@ -58,6 +58,8 @@
 
     h1.title {
         font-size: 2.5rem;
+        display: grid;
+        justify-content: center;
     }
 
     p.section_text_p2 {
@@ -70,9 +72,29 @@
 
     p.section_text_p1 {
         margin-top: 1.5rem;
+        display: grid;
+        justify-content: center;
     }
 
     .menu-links a {
         font-size: medium;
+    }
+
+    .project-large {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .projects-medium {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+
+    .projects-small {
+        margin-left: auto;
+        display: grid;
     }
 }
